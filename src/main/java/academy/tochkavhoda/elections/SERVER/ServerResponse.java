@@ -1,4 +1,4 @@
-package academy.tochkavhoda.elections.server;
+package academy.tochkavhoda.elections.SERVER;
 
 public class ServerResponse {
     private ResponseCode responseCode;
