@@ -1,4 +1,4 @@
-package academy.tochkavhoda.elections.MODEL;
+package academy.tochkavhoda.elections.model;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
-package academy.tochkavhoda.elections.SERVICES;
+package academy.tochkavhoda.elections.services;
 
-import academy.tochkavhoda.elections.SERVER.ServerResponse;
+import academy.tochkavhoda.elections.server.ServerResponse;
 
 public class CandidateService {
 

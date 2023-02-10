@@ -1,15 +1,17 @@
-package academy.tochkavhoda.elections.MODEL;
+package academy.tochkavhoda.elections.model;
 
 import java.util.List;
 
-class Voter {
+public class Voter {
     private String name;
     private String address;
-    private boolean status; // active/inactive
-    private boolean candidateOffered;
+    private boolean isActive; // active/inactive
+    private boolean isCandidateOffered;
     private boolean isCandidateConfirmed;
     List<Suggestion> suggestions;
     private String login;
     private String password;
+    private String token;
+
     // конструкторы, геттеры и сеттеры
 }

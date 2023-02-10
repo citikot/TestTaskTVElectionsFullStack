@@ -1,7 +1,7 @@
-package academy.tochkavhoda.elections.DTO.request;
+package academy.tochkavhoda.elections.dto.request;
 
 class RegisterVoterDTORequest {
-    private String firstName;
+    private String name;
     private String login;
     private String password;
     // конструкторы, геттеры и сеттеры

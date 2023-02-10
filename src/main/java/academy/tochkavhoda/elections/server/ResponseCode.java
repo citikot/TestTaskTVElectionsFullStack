@@ -1,4 +1,4 @@
-package academy.tochkavhoda.elections.SERVER;
+package academy.tochkavhoda.elections.server;
 
 public enum ResponseCode {
     RESPONSE_200,
