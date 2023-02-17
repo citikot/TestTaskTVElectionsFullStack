@@ -4,9 +4,9 @@ import java.util.Map;
 
 public class Suggestion {
 
-    private String author; // voter login
+    private String login; // voter login
     private String text;
-    private Map<Integer, Integer> gradeMap;
+    private Map<String, Integer> gradeMap; // login and grade offered for suggestion
 
     public Double getAverageGrade(){
         Double result = 0.0;
