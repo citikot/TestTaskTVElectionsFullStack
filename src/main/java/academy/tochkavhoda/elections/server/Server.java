@@ -12,18 +12,15 @@ public class Server {
 
     // public ServerResponse methodName(String token, String requestJsonString)
 
-    public ServerResponse register(String name, String login, String password) {
-        String jsonString = "{'name': name, 'login': login, 'password': password}";
+    public ServerResponse register(String jsonString) {
         return voterService.register(gson.toJson(jsonString));
     }
 
-    public ServerResponse login(String login, String password) {
-        String jsonString = "{'login': login, 'password': password}";
+    public ServerResponse login(String jsonString) {
         return voterService.login(gson.toJson(jsonString));
     }
 
-    public ServerResponse logout(String token) {
-        String jsonString = "{'token': token}";
+    public ServerResponse logout(String jsonString) {
         return voterService.logout(gson.toJson(jsonString));
     }
 }

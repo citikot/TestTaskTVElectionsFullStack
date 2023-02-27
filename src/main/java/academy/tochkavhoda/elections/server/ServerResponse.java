@@ -1,10 +1,12 @@
 package academy.tochkavhoda.elections.server;
 
+import java.util.Map;
+
 public class ServerResponse {
     private ResponseCode responseCode;
-    private String responseData;
+    private Map<String, String> responseData;
 
-    public ServerResponse(ResponseCode responseCode, String responseData) {
+    public ServerResponse(ResponseCode responseCode,  Map<String, String>  responseData) {
         this.responseCode = responseCode;
         this.responseData = responseData;
     }
@@ -17,11 +19,11 @@ public class ServerResponse {
         this.responseCode = responseCode;
     }
 
-    public String getResponseData() {
+    public  Map<String, String>  getResponseData() {
         return responseData;
     }
 
-    public void setResponseData(String responseData) {
+    public void setResponseData( Map<String, String>  responseData) {
         this.responseData = responseData;
     }
 }

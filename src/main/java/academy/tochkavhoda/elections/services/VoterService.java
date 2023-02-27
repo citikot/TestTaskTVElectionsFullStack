@@ -9,7 +9,7 @@ public class VoterService {
 
 
     public ServerResponse register(String jsonRequest) {
-        RegisterVoterDTORequest registerVoterDTORequest = new RegisterVoterDTORequest(jsonRequest);
+ //       RegisterVoterDTORequest registerVoterDTORequest = new RegisterVoterDTORequest(jsonRequest);
         return null;
     }
 
